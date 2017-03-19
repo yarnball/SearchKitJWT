@@ -1,0 +1,335 @@
+.tagActive{
+    color:green;
+}
+
+.nav__wrapper{
+    display:none;
+}
+/* To make everything look like its' slowly transitioning
+* {
+    transition: 0.25s ease-in-out all;
+}*/
+/*
+.PhotoGallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.photo-container {
+    margin: 10px;
+    position:relative;
+    animation: fadeUP .5s;
+}
+.photo-container img {
+    max-width: 100%;
+}
+
+@keyframes fadeUP {
+    from {top: -40px; opacity:0;}
+    to {top: 0; opacity:1}
+}
+
+.filter-panel {
+    display: flex;
+    background: #F8F8F8;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,.085);
+}
+
+.filter-panel a {
+    display: inline-block;
+    background: #B677B4;
+    position: relative;
+    padding: 10px 25px;
+    font-size: 25px;
+    color: white;
+    border: 1px solid #BB00FF;
+    margin: 5px 15px;
+    transition: .25s ease-in;
+    border-radius: 4px;
+    font-family: 'Segoe UI','Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.filter-panel-1 {
+    background-color: red!important;
+}
+
+.filter-panel-1 a {
+    background-color: red!important;
+}
+
+.filter-panel a:hover {
+    background: #B25DB0;
+}
+
+.filter-panel a.active {
+    top:-8px;
+}
+
+.filter-panel a.resetBtn {background: #E55E5C;}
+
+.filter-panel a.resetBtn:hover {
+    background: #D34A48;
+}*/
+
+.mdl-navigation__link{
+    display:inline!important;
+}
+
+
+/*Fixes for React-RTE (WYSGI)*/
+b, strong {
+    font-weight: 100!important;
+}
+
+.public-DraftStyleDefault-ul, .public-DraftStyleDefault-ol{
+font-size:16px;
+}
+
+.tab-content > .active{
+    padding-top:0em!important;
+    position:relative!important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.public-DraftStyleDefault-block{
+}
+
+.tab-content > .active, .nav{
+    padding-top:0em!important;
+    position:relative!important;
+}
+
+.nav{
+        position:relative!important;
+        z-index:initial!important;
+}
+
+@media screen and (max-width: 680px) {
+.InputPopover__root___sAIh7 {
+    position: absolute!important;
+    top: calc(100% + 40px)!important;
+    left: -55vw!important;
+    width: 192px!important;
+}
+}
+
+.media {
+    margin-top: 15px!important;
+}
+
+.dropdown-menu {
+    left:0;
+}
+
+.row {
+    margin-right: 0px!important;
+}
+
+.sm-12 {
+    padding-right:0px!important;
+}
+
+
+.floatBtn{
+    position: fixed;
+    top: 30%;
+    right: -87px;
+    z-index: 1;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  box-shadow: -3px 3px 2px #888888;
+}
+
+.jumbotron{
+  padding-top:0px!important;
+}
+
+.panel-default{
+  position: fixed;
+    z-index: 1;
+}
+
+.signout{
+    position: absolute;
+    top: 0.3em;
+    right: 0.3em;
+    color: rgba(179,175,199,.87)!important
+}
+
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+.modal-content {
+    border-radius:0px;
+}
+
+@media (max-width: 768px){
+.modal-dialog{
+    margin:0px;
+}
+}
+
+.col-sm-12{
+  padding-right: 5px;
+}
+
+.fakeContain{
+    background-color: red;
+}
+
+.fakeAppBar textarea{
+    background:linear-gradient(to right, rgba(51, 51, 51, 0.07) 30%,rgba(255, 255, 255, 0.02) 100%);
+    border:none;
+    position:absolute;
+    left:12%;
+    width:78%;
+    padding-left:4px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0px;
+    padding-top: 0px;
+    letter-spacing: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    height: 64px;
+    flex: 1 1 0%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  word-wrap: break-word;
+    white-space: initial;
+        padding-top: 15px;
+        overflow: hidden;
+}
+.reactselecter{
+    background:linear-gradient(to right, rgba(51, 51, 51, 0.07) 30%,rgba(255, 255, 255, 0.02) 100%);
+    border:none;
+    position:absolute;
+    left:11%;
+    width:78%;
+    padding-left:4px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0px;
+    padding-top: 0px;
+    letter-spacing: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    height: 64px;
+    flex: 1 1 0%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  word-wrap: break-word;
+    white-space: initial;
+        padding-top: 15px;
+        }
+
+.fakeAppBar ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgba(224, 224, 224, 0.73);
+}
+.fakeAppBar :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgba(224, 224, 224, 0.73);
+   opacity:  1;
+}
+.fakeAppBar ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgba(224, 224, 224, 0.73);
+   opacity:  1;
+}
+.fakeAppBar :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgba(224, 224, 224, 0.73);
+}
+
+.Select-control {
+    border:none;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+    text-overflow: ellipsis;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 4px;
+}
+
+.addnew-modal-body {
+    padding:0px;
+    padding-bottom:15px;
+    left: 12%;
+    width: 78%;
+    z-index: 10;
+}
+.edit-modal-body {
+    padding:0px;
+    padding-left: 15px;
+}
+
+.Select-placeholder{
+    padding-left:4px;
+}
+
+.fakecontain{
+    background-color: red;
+}
+
+
+.modal-popdown{
+    right:10px;
+    top:70px;
+}
+
+.modal-popdown-edit{
+    display: inline-flex;
+    background:none;
+    padding-left:15px;
+    margin-left:10px;
+}
+
+.modal-popdown-add{
+    display: inline-flex;
+    background:none;
+    padding-left:15px;
+    margin-left:10px;
+    top: -5em;
+    left: 29em;
+    margin-bottom: -10em;
+}
+.nav .modal-popdown-edit {
+    background-color: red;
+}
+
+@media (max-width: 768px){
+.modal-dialog-add{
+    top:26vh;
+
+}
+.nav > li > a {
+    padding:0;
+    margin-left:10px;
+}
+.modal-popdown-add {
+    top:-4.1em;
+    left:16em;
+}
+}
+
+/*MEDIAQU*/
+/*
+.fakeAppBar input{
+    width: 64vw;
+}*/

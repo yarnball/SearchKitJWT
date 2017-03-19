@@ -1,0 +1,39 @@
+{
+  "name": "react-redux-firebase-login",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "firebase": "^3.4.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-router-redux": "^4.0.6",
+    "react-scripts": "0.6.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "reselect": "^2.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "lodash.get": "^4.4.2",
+    "material-ui": "^0.16.2",
+    "moment": "^2.16.0",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.6",
+    "react-bootstrap-table": "^2.5.7",
+    "react-datetime": "^2.7.0",
+    "react-dom": "^15.3.2",
+    "react-moment": "0.0.3",
+    "react-rte-image": "^0.10.1",
+    "react-select": "^1.0.0-rc.2",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux-actions": "^0.13.0",
+    "redux-form": "^6.2.0",
+    "searchkit": "^0.10.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
